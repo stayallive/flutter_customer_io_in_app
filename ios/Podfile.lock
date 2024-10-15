@@ -1,0 +1,44 @@
+PODS:
+  - customer_io (1.5.2):
+    - CustomerIO/MessagingInApp (~> 2)
+    - CustomerIO/Tracking (~> 2)
+    - Flutter
+  - CustomerIO/MessagingInApp (2.14.2):
+    - CustomerIOMessagingInApp (= 2.14.2)
+  - CustomerIO/Tracking (2.14.2):
+    - CustomerIOTracking (= 2.14.2)
+  - CustomerIOCommon (2.14.2)
+  - CustomerIOMessagingInApp (2.14.2):
+    - CustomerIOTracking (= 2.14.2)
+  - CustomerIOTracking (2.14.2):
+    - CustomerIOCommon (= 2.14.2)
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - customer_io (from `.symlinks/plugins/customer_io/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - CustomerIO
+    - CustomerIOCommon
+    - CustomerIOMessagingInApp
+    - CustomerIOTracking
+
+EXTERNAL SOURCES:
+  customer_io:
+    :path: ".symlinks/plugins/customer_io/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  customer_io: 6b1ff804eb2037461088d9d521d380ef850f619e
+  CustomerIO: 51eaaea8fd5a6f769ac93dd0ba0991effd1b78e1
+  CustomerIOCommon: f21661da1b67b7c2ee420d424cffacad3bbb28f6
+  CustomerIOMessagingInApp: dc75d9c9e732a62739fd52a51e2c71eb278c006d
+  CustomerIOTracking: 1be3d27b63026b2a5903b50174e06c4b30c940a0
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+
+PODFILE CHECKSUM: a57f30d18f102dd3ce366b1d62a55ecbef2158e5
+
+COCOAPODS: 1.15.2
